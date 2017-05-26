@@ -53,7 +53,7 @@ public class hindu extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("CANDI BUDDHA");
+        jLabel1.setText("CANDI HINDU");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(130, 10, 160, 40);
 
