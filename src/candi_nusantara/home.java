@@ -51,6 +51,11 @@ public class home extends javax.swing.JFrame {
 
         jButton2.setIcon(new javax.swing.ImageIcon("D:\\SEKOLAH\\NetBeansProject\\abb.png")); // NOI18N
         jButton2.setContentAreaFilled(false);
+        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jButton2MouseReleased(evt);
+            }
+        });
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -71,6 +76,10 @@ public class home extends javax.swing.JFrame {
         a.setVisible(true);// TODO add your handling code here:
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2MouseReleased
 
     /**
      * @param args the command line arguments

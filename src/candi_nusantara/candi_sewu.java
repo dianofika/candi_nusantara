@@ -61,6 +61,7 @@ public class candi_sewu extends javax.swing.JFrame {
         jPanel2.setBounds(0, 0, 300, 60);
 
         jLabel2.setBackground(new java.awt.Color(204, 255, 204));
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\SEKOLAH\\PBO\\NetBeansProject\\CANDI_NUSANTARA\\properti\\6.jpg")); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 60, 300, 180);
 
