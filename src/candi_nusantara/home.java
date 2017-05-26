@@ -51,6 +51,11 @@ public class home extends javax.swing.JFrame {
 
         jButton2.setIcon(new javax.swing.ImageIcon("D:\\SEKOLAH\\NetBeansProject\\abb.png")); // NOI18N
         jButton2.setContentAreaFilled(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
         jButton2.setBounds(460, 220, 130, 120);
 
@@ -60,6 +65,12 @@ public class home extends javax.swing.JFrame {
 
         setBounds(0, 0, 617, 389);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        frame1 a = new frame1();
+        a.setVisible(true);// TODO add your handling code here:
+        dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

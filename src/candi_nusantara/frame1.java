@@ -59,6 +59,11 @@ public class frame1 extends javax.swing.JFrame {
         jLabel3.setBounds(490, 110, 61, 17);
 
         jButton2.setIcon(new javax.swing.ImageIcon("D:\\SEKOLAH\\NetBeansProject\\hindu.JPG")); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton2);
         jButton2.setBounds(360, 100, 200, 220);
 
@@ -87,8 +92,17 @@ public class frame1 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        buddha a = new buddha();// TODO add your handling code here:
+        a.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        hindu b = new hindu();
+        b.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
